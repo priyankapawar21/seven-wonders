@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		048180A51E6EF2EC0004D4CF /* chinawall.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 048180A41E6EF2EC0004D4CF /* chinawall.jpeg */; };
+		048180A71E6EF6630004D4CF /* tajmahal.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 048180A61E6EF6630004D4CF /* tajmahal.jpeg */; };
+		048180A91E6F00650004D4CF /* petra.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 048180A81E6F00650004D4CF /* petra.jpeg */; };
+		048180AB1E6F015A0004D4CF /* Christ the Redeemer.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 048180AA1E6F015A0004D4CF /* Christ the Redeemer.jpeg */; };
+		048180AD1E6F022A0004D4CF /* Machu Picchu.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 048180AC1E6F022A0004D4CF /* Machu Picchu.jpeg */; };
+		048180AF1E6F02CB0004D4CF /* Chichen Itza.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 048180AE1E6F02CB0004D4CF /* Chichen Itza.jpeg */; };
+		048180B11E6F03640004D4CF /* Colosseum.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 048180B01E6F03640004D4CF /* Colosseum.jpeg */; };
+		048180B41E6F0DD10004D4CF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048180B31E6F0DD10004D4CF /* SecondViewController.m */; };
+		F26FF9961E5AE6A3007581C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26FF9951E5AE6A3007581C6 /* main.m */; };
+		F26FF9991E5AE6A3007581C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26FF9981E5AE6A3007581C6 /* AppDelegate.m */; };
+		F26FF99C1E5AE6A3007581C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26FF99B1E5AE6A3007581C6 /* ViewController.m */; };
+		F26FF99F1E5AE6A3007581C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26FF99D1E5AE6A3007581C6 /* Main.storyboard */; };
+		F26FF9A11E5AE6A3007581C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26FF9A01E5AE6A3007581C6 /* Assets.xcassets */; };
+		F26FF9A41E5AE6A3007581C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26FF9A21E5AE6A3007581C6 /* LaunchScreen.storyboard */; };
+		F26FF9AF1E5AE6A3007581C6 /* mapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F26FF9AE1E5AE6A3007581C6 /* mapTests.m */; };
+		F26FF9BA1E5AE6A3007581C6 /* mapUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F26FF9B91E5AE6A3007581C6 /* mapUITests.m */; };
+		F26FF9C81E5AE6B3007581C6 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F26FF9C71E5AE6B3007581C6 /* MapKit.framework */; };
+		F26FF9CA1E5AF5BC007581C6 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = F26FF9C91E5AF5BC007581C6 /* 3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F26FF9AB1E5AE6A3007581C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26FF9891E5AE6A2007581C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26FF9901E5AE6A2007581C6;
+			remoteInfo = map;
+		};
+		F26FF9B61E5AE6A3007581C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F26FF9891E5AE6A2007581C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F26FF9901E5AE6A2007581C6;
+			remoteInfo = map;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048180A41E6EF2EC0004D4CF /* chinawall.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = chinawall.jpeg; sourceTree = "<group>"; };
+		048180A61E6EF6630004D4CF /* tajmahal.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = tajmahal.jpeg; sourceTree = "<group>"; };
+		048180A81E6F00650004D4CF /* petra.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = petra.jpeg; sourceTree = "<group>"; };
+		048180AA1E6F015A0004D4CF /* Christ the Redeemer.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Christ the Redeemer.jpeg"; sourceTree = "<group>"; };
+		048180AC1E6F022A0004D4CF /* Machu Picchu.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Machu Picchu.jpeg"; sourceTree = "<group>"; };
+		048180AE1E6F02CB0004D4CF /* Chichen Itza.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Chichen Itza.jpeg"; sourceTree = "<group>"; };
+		048180B01E6F03640004D4CF /* Colosseum.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Colosseum.jpeg; sourceTree = "<group>"; };
+		048180B21E6F0DD10004D4CF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		048180B31E6F0DD10004D4CF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		F26FF9911E5AE6A2007581C6 /* map.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = map.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26FF9951E5AE6A3007581C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F26FF9971E5AE6A3007581C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F26FF9981E5AE6A3007581C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F26FF99A1E5AE6A3007581C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F26FF99B1E5AE6A3007581C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F26FF99E1E5AE6A3007581C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F26FF9A01E5AE6A3007581C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26FF9A31E5AE6A3007581C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F26FF9A51E5AE6A3007581C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26FF9AA1E5AE6A3007581C6 /* mapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26FF9AE1E5AE6A3007581C6 /* mapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapTests.m; sourceTree = "<group>"; };
+		F26FF9B01E5AE6A3007581C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26FF9B51E5AE6A3007581C6 /* mapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F26FF9B91E5AE6A3007581C6 /* mapUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mapUITests.m; sourceTree = "<group>"; };
+		F26FF9BB1E5AE6A3007581C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26FF9C71E5AE6B3007581C6 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		F26FF9C91E5AF5BC007581C6 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F26FF98E1E5AE6A2007581C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FF9C81E5AE6B3007581C6 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26FF9A71E5AE6A3007581C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26FF9B21E5AE6A3007581C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F26FF9881E5AE6A2007581C6 = {
+			isa = PBXGroup;
+			children = (
+				F26FF9C71E5AE6B3007581C6 /* MapKit.framework */,
+				F26FF9931E5AE6A3007581C6 /* map */,
+				F26FF9AD1E5AE6A3007581C6 /* mapTests */,
+				F26FF9B81E5AE6A3007581C6 /* mapUITests */,
+				F26FF9921E5AE6A2007581C6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F26FF9921E5AE6A2007581C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF9911E5AE6A2007581C6 /* map.app */,
+				F26FF9AA1E5AE6A3007581C6 /* mapTests.xctest */,
+				F26FF9B51E5AE6A3007581C6 /* mapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F26FF9931E5AE6A3007581C6 /* map */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF9971E5AE6A3007581C6 /* AppDelegate.h */,
+				F26FF9981E5AE6A3007581C6 /* AppDelegate.m */,
+				048180B21E6F0DD10004D4CF /* SecondViewController.h */,
+				048180B31E6F0DD10004D4CF /* SecondViewController.m */,
+				F26FF99A1E5AE6A3007581C6 /* ViewController.h */,
+				F26FF9C91E5AF5BC007581C6 /* 3.png */,
+				048180A81E6F00650004D4CF /* petra.jpeg */,
+				F26FF99B1E5AE6A3007581C6 /* ViewController.m */,
+				048180B01E6F03640004D4CF /* Colosseum.jpeg */,
+				048180AE1E6F02CB0004D4CF /* Chichen Itza.jpeg */,
+				048180AC1E6F022A0004D4CF /* Machu Picchu.jpeg */,
+				048180AA1E6F015A0004D4CF /* Christ the Redeemer.jpeg */,
+				048180A61E6EF6630004D4CF /* tajmahal.jpeg */,
+				048180A41E6EF2EC0004D4CF /* chinawall.jpeg */,
+				F26FF99D1E5AE6A3007581C6 /* Main.storyboard */,
+				F26FF9A01E5AE6A3007581C6 /* Assets.xcassets */,
+				F26FF9A21E5AE6A3007581C6 /* LaunchScreen.storyboard */,
+				F26FF9A51E5AE6A3007581C6 /* Info.plist */,
+				F26FF9941E5AE6A3007581C6 /* Supporting Files */,
+			);
+			path = map;
+			sourceTree = "<group>";
+		};
+		F26FF9941E5AE6A3007581C6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF9951E5AE6A3007581C6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F26FF9AD1E5AE6A3007581C6 /* mapTests */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF9AE1E5AE6A3007581C6 /* mapTests.m */,
+				F26FF9B01E5AE6A3007581C6 /* Info.plist */,
+			);
+			path = mapTests;
+			sourceTree = "<group>";
+		};
+		F26FF9B81E5AE6A3007581C6 /* mapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F26FF9B91E5AE6A3007581C6 /* mapUITests.m */,
+				F26FF9BB1E5AE6A3007581C6 /* Info.plist */,
+			);
+			path = mapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F26FF9901E5AE6A2007581C6 /* map */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26FF9BE1E5AE6A3007581C6 /* Build configuration list for PBXNativeTarget "map" */;
+			buildPhases = (
+				F26FF98D1E5AE6A2007581C6 /* Sources */,
+				F26FF98E1E5AE6A2007581C6 /* Frameworks */,
+				F26FF98F1E5AE6A2007581C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = map;
+			productName = map;
+			productReference = F26FF9911E5AE6A2007581C6 /* map.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F26FF9A91E5AE6A3007581C6 /* mapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26FF9C11E5AE6A3007581C6 /* Build configuration list for PBXNativeTarget "mapTests" */;
+			buildPhases = (
+				F26FF9A61E5AE6A3007581C6 /* Sources */,
+				F26FF9A71E5AE6A3007581C6 /* Frameworks */,
+				F26FF9A81E5AE6A3007581C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26FF9AC1E5AE6A3007581C6 /* PBXTargetDependency */,
+			);
+			name = mapTests;
+			productName = mapTests;
+			productReference = F26FF9AA1E5AE6A3007581C6 /* mapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F26FF9B41E5AE6A3007581C6 /* mapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F26FF9C41E5AE6A3007581C6 /* Build configuration list for PBXNativeTarget "mapUITests" */;
+			buildPhases = (
+				F26FF9B11E5AE6A3007581C6 /* Sources */,
+				F26FF9B21E5AE6A3007581C6 /* Frameworks */,
+				F26FF9B31E5AE6A3007581C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F26FF9B71E5AE6A3007581C6 /* PBXTargetDependency */,
+			);
+			name = mapUITests;
+			productName = mapUITests;
+			productReference = F26FF9B51E5AE6A3007581C6 /* mapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F26FF9891E5AE6A2007581C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = felix;
+				TargetAttributes = {
+					F26FF9901E5AE6A2007581C6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					F26FF9A91E5AE6A3007581C6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F26FF9901E5AE6A2007581C6;
+					};
+					F26FF9B41E5AE6A3007581C6 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = F26FF9901E5AE6A2007581C6;
+					};
+				};
+			};
+			buildConfigurationList = F26FF98C1E5AE6A2007581C6 /* Build configuration list for PBXProject "map" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F26FF9881E5AE6A2007581C6;
+			productRefGroup = F26FF9921E5AE6A2007581C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F26FF9901E5AE6A2007581C6 /* map */,
+				F26FF9A91E5AE6A3007581C6 /* mapTests */,
+				F26FF9B41E5AE6A3007581C6 /* mapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F26FF98F1E5AE6A2007581C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FF9A41E5AE6A3007581C6 /* LaunchScreen.storyboard in Resources */,
+				048180AF1E6F02CB0004D4CF /* Chichen Itza.jpeg in Resources */,
+				048180A91E6F00650004D4CF /* petra.jpeg in Resources */,
+				048180A51E6EF2EC0004D4CF /* chinawall.jpeg in Resources */,
+				048180AB1E6F015A0004D4CF /* Christ the Redeemer.jpeg in Resources */,
+				F26FF9A11E5AE6A3007581C6 /* Assets.xcassets in Resources */,
+				F26FF99F1E5AE6A3007581C6 /* Main.storyboard in Resources */,
+				F26FF9CA1E5AF5BC007581C6 /* 3.png in Resources */,
+				048180A71E6EF6630004D4CF /* tajmahal.jpeg in Resources */,
+				048180AD1E6F022A0004D4CF /* Machu Picchu.jpeg in Resources */,
+				048180B11E6F03640004D4CF /* Colosseum.jpeg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26FF9A81E5AE6A3007581C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26FF9B31E5AE6A3007581C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F26FF98D1E5AE6A2007581C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				048180B41E6F0DD10004D4CF /* SecondViewController.m in Sources */,
+				F26FF99C1E5AE6A3007581C6 /* ViewController.m in Sources */,
+				F26FF9991E5AE6A3007581C6 /* AppDelegate.m in Sources */,
+				F26FF9961E5AE6A3007581C6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26FF9A61E5AE6A3007581C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FF9AF1E5AE6A3007581C6 /* mapTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F26FF9B11E5AE6A3007581C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26FF9BA1E5AE6A3007581C6 /* mapUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F26FF9AC1E5AE6A3007581C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26FF9901E5AE6A2007581C6 /* map */;
+			targetProxy = F26FF9AB1E5AE6A3007581C6 /* PBXContainerItemProxy */;
+		};
+		F26FF9B71E5AE6A3007581C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F26FF9901E5AE6A2007581C6 /* map */;
+			targetProxy = F26FF9B61E5AE6A3007581C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F26FF99D1E5AE6A3007581C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26FF99E1E5AE6A3007581C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F26FF9A21E5AE6A3007581C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26FF9A31E5AE6A3007581C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F26FF9BC1E5AE6A3007581C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F26FF9BD1E5AE6A3007581C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F26FF9BF1E5AE6A3007581C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = map/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix-its.map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F26FF9C01E5AE6A3007581C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = map/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix-its.map";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F26FF9C21E5AE6A3007581C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix-its.mapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/map.app/map";
+			};
+			name = Debug;
+		};
+		F26FF9C31E5AE6A3007581C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = mapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix-its.mapTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/map.app/map";
+			};
+			name = Release;
+		};
+		F26FF9C51E5AE6A3007581C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix-its.mapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = map;
+			};
+			name = Debug;
+		};
+		F26FF9C61E5AE6A3007581C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = mapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.felix-its.mapUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = map;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F26FF98C1E5AE6A2007581C6 /* Build configuration list for PBXProject "map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26FF9BC1E5AE6A3007581C6 /* Debug */,
+				F26FF9BD1E5AE6A3007581C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26FF9BE1E5AE6A3007581C6 /* Build configuration list for PBXNativeTarget "map" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26FF9BF1E5AE6A3007581C6 /* Debug */,
+				F26FF9C01E5AE6A3007581C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26FF9C11E5AE6A3007581C6 /* Build configuration list for PBXNativeTarget "mapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26FF9C21E5AE6A3007581C6 /* Debug */,
+				F26FF9C31E5AE6A3007581C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F26FF9C41E5AE6A3007581C6 /* Build configuration list for PBXNativeTarget "mapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F26FF9C51E5AE6A3007581C6 /* Debug */,
+				F26FF9C61E5AE6A3007581C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F26FF9891E5AE6A2007581C6 /* Project object */;
+}
